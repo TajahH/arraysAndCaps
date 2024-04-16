@@ -1,13 +1,20 @@
-let names = []
+let names = ["name", "fame"]
 let capNames = []
-console.log(names) //checking empty array
-while (names == 0){
-    names.push("Tajah")
-}
-console.log(names) //checking array has been filled
+console.log(names)
 
-for (let i = 0; i < names.length; i++){
-    let capitaliseArray = names[i].toUpperCase();
-    capNames.push(capitaliseArray)
-};
-console.log(capNames) //checking new array has been filled
+for(i = 0; i < names.length; i++){
+    names[i] = names[i].toUpperCase()
+}
+
+console.log(names)
+//while (names == 0){
+//     names.push("Tajah")
+// }
+// console.log(names)
+
+// for (let i = 0; i < names.length; i++){
+//     let capitaliseArray = names[i].toUpperCase();
+//     capNames.push(capitaliseArray)
+// };
+// console.log(capNames)
+//the commented version creates a new array and the top version transforms an array
